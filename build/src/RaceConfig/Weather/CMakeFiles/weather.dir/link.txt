@@ -1,0 +1,2 @@
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" cr libweather.a CMakeFiles/weather.dir/Weather.cpp.o CMakeFiles/weather.dir/WeatherDataPoint.cpp.o
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libweather.a

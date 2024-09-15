@@ -1,0 +1,5 @@
+if(EXISTS "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/SolarCar/Motor/motor_tests-b12d07c_tests.cmake")
+  include("/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/SolarCar/Motor/motor_tests-b12d07c_tests.cmake")
+else()
+  add_test(motor_tests_NOT_BUILT-b12d07c motor_tests_NOT_BUILT-b12d07c)
+endif()
