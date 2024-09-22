@@ -62,3 +62,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/Tools/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/cmake_install.cmake")
+endif()
+

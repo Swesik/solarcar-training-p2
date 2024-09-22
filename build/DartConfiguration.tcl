@@ -11,7 +11,7 @@ BuildDirectory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: Swesiks-MacBook-Pro-5.local
+Site: 0587450107.wireless.umich.net
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++

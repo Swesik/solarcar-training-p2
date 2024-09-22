@@ -138,3 +138,8 @@
 /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/Tools/CMakeFiles/test.dir
 /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/Tools/CMakeFiles/edit_cache.dir
 /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/Tools/CMakeFiles/rebuild_cache.dir
+/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir
+/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir
+/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/CMakeFiles/test.dir
+/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/CMakeFiles/edit_cache.dir
+/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/CMakeFiles/rebuild_cache.dir

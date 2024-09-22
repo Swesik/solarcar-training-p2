@@ -932,6 +932,32 @@ time_tools/fast:
 	$(MAKE) $(MAKESILENT) -f src/Tools/CMakeFiles/time_tools.dir/build.make src/Tools/CMakeFiles/time_tools.dir/build
 .PHONY : time_tools/fast
 
+#=============================================================================
+# Target rules for targets named race_segment_runner
+
+# Build rule for target.
+race_segment_runner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 race_segment_runner
+.PHONY : race_segment_runner
+
+# fast build rule for target.
+race_segment_runner/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/build.make src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/build
+.PHONY : race_segment_runner/fast
+
+#=============================================================================
+# Target rules for targets named race_segment_runner_tests
+
+# Build rule for target.
+race_segment_runner_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 race_segment_runner_tests
+.PHONY : race_segment_runner_tests
+
+# fast build rule for target.
+race_segment_runner_tests/fast:
+	$(MAKE) $(MAKESILENT) -f src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/build.make src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/build
+.PHONY : race_segment_runner_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -990,6 +1016,8 @@ help:
 	@echo "... motor_tests"
 	@echo "... parsing"
 	@echo "... physical_constants"
+	@echo "... race_segment_runner"
+	@echo "... race_segment_runner_tests"
 	@echo "... raceschedule"
 	@echo "... root_binary_search"
 	@echo "... root_tool"
