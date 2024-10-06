@@ -940,4 +940,5 @@ src/RaceRunner/CMakeFiles/racerunner.dir/RaceRunner.cpp.o: \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Battery/Battery.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Motor/Motor.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Tire/Tire.h \
-  /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/RaceSegmentRunner/RaceSegmentRunner.h
+  /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/RaceSegmentRunner/RaceSegmentRunner.h \
+  /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Battery/BatteryState.h

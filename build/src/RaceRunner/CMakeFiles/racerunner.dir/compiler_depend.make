@@ -939,6 +939,7 @@ src/RaceRunner/CMakeFiles/racerunner.dir/RaceRunner.cpp.o: /Users/swesikramineni
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Aerobody/VelocityVector.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Array/Array.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Battery/Battery.h \
+  /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Battery/BatteryState.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Motor/Motor.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/SolarCar.h \
   /Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Tire/Tire.h \
@@ -1362,6 +1363,8 @@ src/RaceRunner/CMakeFiles/racerunner.dir/RaceRunner.cpp.o: /Users/swesikramineni
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_pointer.h:
+
+/Users/swesikramineni/github/solarcar/solarcar-training-p2/src/SolarCar/Battery/BatteryState.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 

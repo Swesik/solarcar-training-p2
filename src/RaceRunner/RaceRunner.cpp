@@ -7,6 +7,7 @@
 #include "RaceConfig/Route/RouteSegment.h"
 #include "RaceSegmentRunner/RaceSegmentRunner.h"
 #include "SolarCar/Battery/Battery.h"
+#include "SolarCar/Battery/BatteryState.h"
 #include "SolarCar/SolarCar.h"
 
 const double FIVE_MIN = 300.0;
@@ -47,7 +48,7 @@ std::optional<double> RaceRunner::calculate_racetime(const SolarCar& car, const 
             // if (!power_gain) {
             //     return std::nullopt;
             // }
-            // stored_charge = std::min(*power_gain + stored_charge, car.battery.get_capacity());
+            // stored_charge = std::min(power_gain + stored_charge, car.battery.get_capacity());
             stored_charge = power_gain + stored_charge;
             daily_time = schedule[curr_day].race_start_time;
         } else if (curr_day == 0 && daily_time < schedule[curr_day].morning_charging_end_time) {
@@ -59,7 +60,7 @@ std::optional<double> RaceRunner::calculate_racetime(const SolarCar& car, const 
             // race the segment
             double elapsed_time = i->distance / speed;
             std::optional<double> net_power = segment_runner.calculate_power_net(
-              *i, weather.get_weather_during(i->weather_station, daily_time, schedule[curr_day].race_end_time),
+              *i, weather.get_weather_during(i->weather_station, daily_time, daily_time + elapsed_time),
               car.battery.state_of_charge(stored_charge), speed);
             if (!net_power) {
                 return std::nullopt;
@@ -72,10 +73,6 @@ std::optional<double> RaceRunner::calculate_racetime(const SolarCar& car, const 
             if (i->end_condition == SegmentEndCondition::CONTROL_STOP) {
                 double power_gain = calculate_static_charging_gain(car, weather, i->weather_station, daily_time,
                                                                    daily_time + CHARGE_DURATION);
-
-                // if (!power_gain) {
-                //     return std::nullopt;
-                // }
 
                 // stored_charge = std::min(*power_gain + stored_charge, car.battery.get_capacity());
                 stored_charge = power_gain + stored_charge;
@@ -105,9 +102,6 @@ std::optional<double> RaceRunner::calculate_racetime(const SolarCar& car, const 
                                                                schedule[curr_day].evening_charging_start_time,
                                                                schedule[curr_day].morning_charging_end_time);
 
-            // if (!power_gain) {
-            //     return std::nullopt;
-            // }
             stored_charge = std::min(power_gain + stored_charge, car.battery.get_capacity());
 
             daily_time = 0.0;
@@ -117,6 +111,5 @@ std::optional<double> RaceRunner::calculate_racetime(const SolarCar& car, const 
             }
         }
     }
-    return total_time;
-    // return std::nullopt;
+    return std::nullopt;
 }
