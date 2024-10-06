@@ -1,2 +1,2 @@
-"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" cr libbattery.a CMakeFiles/battery.dir/Battery.cpp.o CMakeFiles/battery.dir/BatteryState.cpp.o
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libbattery.a CMakeFiles/battery.dir/Battery.cpp.o CMakeFiles/battery.dir/BatteryState.cpp.o
 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libbattery.a

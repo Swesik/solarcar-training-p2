@@ -1,2 +1,2 @@
-"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" cr libtire.a CMakeFiles/tire.dir/Tire.cpp.o
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libtire.a CMakeFiles/tire.dir/Tire.cpp.o
 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libtire.a

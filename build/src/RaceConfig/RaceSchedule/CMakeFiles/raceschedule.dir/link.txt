@@ -1,2 +1,2 @@
-"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" cr libraceschedule.a CMakeFiles/raceschedule.dir/RaceSchedule.cpp.o
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libraceschedule.a CMakeFiles/raceschedule.dir/RaceSchedule.cpp.o
 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libraceschedule.a

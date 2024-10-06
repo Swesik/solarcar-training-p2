@@ -1,2 +1,2 @@
-"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" cr libdataclasses.a CMakeFiles/dataclasses.dir/GeographicalCoordinate.cpp.o
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libdataclasses.a CMakeFiles/dataclasses.dir/GeographicalCoordinate.cpp.o
 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libdataclasses.a

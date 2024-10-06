@@ -1,2 +1,2 @@
-"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" cr libroot_tool.a CMakeFiles/root_tool.dir/RootDirectory.cpp.o
+"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libroot_tool.a CMakeFiles/root_tool.dir/RootDirectory.cpp.o
 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libroot_tool.a

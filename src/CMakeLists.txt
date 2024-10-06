@@ -4,6 +4,7 @@ add_subdirectory(RaceConfig)
 add_subdirectory(SolarCar)
 add_subdirectory(Tools)
 add_subdirectory(RaceSegmentRunner)
+add_subdirectory(RaceRunner)
 
 add_library(tools INTERFACE)
 target_link_libraries(

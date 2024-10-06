@@ -1,0 +1,5 @@
+add_test( [==[RaceSegmentRunner: calculate_static_charging_gain]==] /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner/racerunner_tests [==[RaceSegmentRunner: calculate_static_charging_gain]==]  )
+set_tests_properties( [==[RaceSegmentRunner: calculate_static_charging_gain]==] PROPERTIES WORKING_DIRECTORY /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner)
+add_test( [==[RaceSegmentRunner: calculate_racetime]==] /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner/racerunner_tests [==[RaceSegmentRunner: calculate_racetime]==]  )
+set_tests_properties( [==[RaceSegmentRunner: calculate_racetime]==] PROPERTIES WORKING_DIRECTORY /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner)
+set( racerunner_tests_TESTS [==[RaceSegmentRunner: calculate_static_charging_gain]==] [==[RaceSegmentRunner: calculate_racetime]==])
