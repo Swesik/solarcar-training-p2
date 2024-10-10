@@ -4442,3 +4442,379 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.4/share/cmake/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "CMakeLists.txt:31 (check_ipo_supported)"
+    directories:
+      source: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -S/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src -B/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/Makefile2 all
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" libfoo.a
+        [ 50%] Built target foo
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin && /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_depends "Unix Makefiles" /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -flto=thin -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        ld: warning: reexported library with install name '/opt/homebrew/opt/llvm/lib/libunwind.1.dylib' found at '/opt/homebrew/Cellar/llvm/19.1.0/lib/libunwind.1.0.dylib' couldn't be matched with any parent library and will be linked directly
+        [100%] Built target boo
+        /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E cmake_progress_start /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+...

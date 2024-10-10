@@ -92,18 +92,13 @@ minisim_EXTERNAL_OBJECTS =
 
 src/minisim: src/CMakeFiles/minisim.dir/minisim.cpp.o
 src/minisim: src/CMakeFiles/minisim.dir/build.make
-src/minisim: src/SolarCar/libsolarcar.a
-src/minisim: src/SolarCar/Aerobody/libaerobody.a
-src/minisim: src/SolarCar/Array/libarray.a
-src/minisim: src/SolarCar/Battery/libbattery.a
-src/minisim: src/SolarCar/Motor/libmotor.a
-src/minisim: src/SolarCar/Tire/libtire.a
+src/minisim: src/Optimizer/liboptimizers.a
 src/minisim: src/RaceConfig/RaceSchedule/libraceschedule.a
+src/minisim: src/RaceConfig/SolarPosition/libsolar_position.a
+src/minisim: src/RaceRunner/libracerunner.a
 src/minisim: src/RaceConfig/Route/libroute.a
 src/minisim: src/RaceConfig/Weather/libweather.a
 src/minisim: src/RaceConfig/WeatherStations/libweather_stations.a
-src/minisim: src/RaceConfig/SolarPosition/libsolar_position.a
-src/minisim: src/ConfigFile/libconfig_file.a
 src/minisim: src/DataClasses/libdataclasses.a
 src/minisim: src/Tools/libparsing.a
 src/minisim: src/Tools/libfile_tools.a
@@ -111,6 +106,14 @@ src/minisim: src/Tools/libroot_tool.a
 src/minisim: src/Tools/libtime_tools.a
 src/minisim: external/alglib/libalglib.a
 src/minisim: external/solpos/libsolpos.a
+src/minisim: src/RaceSegmentRunner/librace_segment_runner.a
+src/minisim: src/SolarCar/libsolarcar.a
+src/minisim: src/ConfigFile/libconfig_file.a
+src/minisim: src/SolarCar/Aerobody/libaerobody.a
+src/minisim: src/SolarCar/Array/libarray.a
+src/minisim: src/SolarCar/Battery/libbattery.a
+src/minisim: src/SolarCar/Motor/libmotor.a
+src/minisim: src/SolarCar/Tire/libtire.a
 src/minisim: src/CMakeFiles/minisim.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minisim"
 	cd /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minisim.dir/link.txt --verbose=$(VERBOSE)

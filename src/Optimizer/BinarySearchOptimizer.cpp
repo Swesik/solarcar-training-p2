@@ -10,11 +10,19 @@
 #include "RaceRunner/RaceRunner.h"
 #include "SolarCar/SolarCar.h"
 
+
+BinarySearchOptimizer::BinarySearchOptimizer(SolarCar const& car, Weather const& weather, Route const& route,
+                                             RaceSchedule const& race_schedule)
+    : car(car)
+    , weather(weather)
+    , route(route)
+    , schedule(race_schedule) {}
+
 Optimizer::OptimizationOutput binary_search_helper(Optimizer::OptimizationOutput& lower,
                                                    Optimizer::OptimizationOutput& higher, const SolarCar& car,
                                                    const Route& route, const Weather& weather,
                                                    const RaceSchedule& schedule, double precision) {
-    if (higher.speed - lower.speed < precision) {
+    if (!std::isinf(higher.speed) && higher.speed - lower.speed < precision) {
         return higher;
     }
     double speed = (lower.speed + higher.speed) / 2;
@@ -28,7 +36,6 @@ Optimizer::OptimizationOutput binary_search_helper(Optimizer::OptimizationOutput
 
 std::optional<Optimizer::OptimizationOutput> BinarySearchOptimizer::optimize_race() const {
     std::optional<double> min_time = RaceRunner::calculate_racetime(car, route, weather, schedule, minimum_speed);
-
     Optimizer::OptimizationOutput min = { min_time.value_or(std::numeric_limits<double>::infinity()), minimum_speed };
 
     std::optional<double> max_time = RaceRunner::calculate_racetime(car, route, weather, schedule, maximum_speed);
