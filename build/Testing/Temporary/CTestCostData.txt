@@ -710,11 +710,28 @@ RaceSegmentRunner: 0 1
 RaceSegmentRunner: 0 1
 RaceSegmentRunner: 0 1
 RaceSegmentRunner: 0 0
-RaceSegmentRunner: calculate_resistive_force 1 0.00120133
-RaceSegmentRunner: calculate_power_out 1 0.00103742
-RaceSegmentRunner: calculate_power_in 1 0.000994208
-RaceSegmentRunner: calculate_power_net 1 0.000893375
-RaceSegmentRunner: calculate_static_charging_gain 1 1.07791
-RaceSegmentRunner: calculate_racetime 0 0
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 0
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: 0 1
+RaceSegmentRunner: calculate_resistive_force 1 0.00270092
+RaceSegmentRunner: calculate_power_out 1 0.00119492
+RaceSegmentRunner: calculate_power_in 1 0.00105883
+RaceSegmentRunner: calculate_power_net 1 0.000973291
+RaceSegmentRunner: calculate_static_charging_gain 1 1.09104
+RaceSegmentRunner: calculate_racetime 1 1.12033
 ---
-RaceSegmentRunner: calculate_racetime

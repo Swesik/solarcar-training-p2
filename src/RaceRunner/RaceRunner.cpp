@@ -70,6 +70,7 @@ std::optional<double> RaceRunner::calculate_racetime(const SolarCar& car, const 
                                                    time + elapsed_time + CHARGE_DURATION);
 
                 battery_state.update_energy_remaining(power_gain);
+                total_time += CHARGE_DURATION;
                 elapsed_time += CHARGE_DURATION;
             }
             segment_iter++;
