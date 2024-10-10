@@ -1,14 +1,14 @@
-Start testing: Oct 06 17:09 EDT
+Start testing: Oct 09 20:21 EDT
 ----------------------------------------------------------
 15/20 Testing: RaceSegmentRunner: calculate_resistive_force
 15/20 Test: RaceSegmentRunner: calculate_resistive_force
 Command: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_resistive_force"
 Directory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_resistive_force" start time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_resistive_force" start time: Oct 09 20:21 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_resistive_force"
-Randomness seeded to: 1641379096
+Randomness seeded to: 3919324199
 ===============================================================================
 All tests passed (30 assertions in 1 test case)
 
@@ -16,7 +16,7 @@ All tests passed (30 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_resistive_force" end time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_resistive_force" end time: Oct 09 20:21 EDT
 "RaceSegmentRunner: calculate_resistive_force" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -24,11 +24,11 @@ Test Passed.
 16/20 Test: RaceSegmentRunner: calculate_power_out
 Command: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_power_out"
 Directory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_power_out" start time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_power_out" start time: Oct 09 20:21 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_power_out"
-Randomness seeded to: 3315198695
+Randomness seeded to: 1490473443
 ===============================================================================
 All tests passed (30 assertions in 1 test case)
 
@@ -36,7 +36,7 @@ All tests passed (30 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_power_out" end time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_power_out" end time: Oct 09 20:21 EDT
 "RaceSegmentRunner: calculate_power_out" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -44,11 +44,11 @@ Test Passed.
 17/20 Test: RaceSegmentRunner: calculate_power_in
 Command: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_power_in"
 Directory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_power_in" start time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_power_in" start time: Oct 09 20:21 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_power_in"
-Randomness seeded to: 1791625364
+Randomness seeded to: 1603668342
 ===============================================================================
 All tests passed (30 assertions in 1 test case)
 
@@ -56,7 +56,7 @@ All tests passed (30 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_power_in" end time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_power_in" end time: Oct 09 20:21 EDT
 "RaceSegmentRunner: calculate_power_in" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,11 +64,11 @@ Test Passed.
 18/20 Test: RaceSegmentRunner: calculate_power_net
 Command: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner/race_segment_runner_tests" "RaceSegmentRunner: calculate_power_net"
 Directory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceSegmentRunner
-"RaceSegmentRunner: calculate_power_net" start time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_power_net" start time: Oct 09 20:21 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_power_net"
-Randomness seeded to: 2665080193
+Randomness seeded to: 4105844674
 ===============================================================================
 All tests passed (54 assertions in 1 test case)
 
@@ -76,7 +76,7 @@ All tests passed (54 assertions in 1 test case)
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_power_net" end time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_power_net" end time: Oct 09 20:21 EDT
 "RaceSegmentRunner: calculate_power_net" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -84,19 +84,19 @@ Test Passed.
 19/20 Test: RaceSegmentRunner: calculate_static_charging_gain
 Command: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner/racerunner_tests" "RaceSegmentRunner: calculate_static_charging_gain"
 Directory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner
-"RaceSegmentRunner: calculate_static_charging_gain" start time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_static_charging_gain" start time: Oct 09 20:21 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_static_charging_gain"
-Randomness seeded to: 22283217
+Randomness seeded to: 2469561347
 ===============================================================================
 All tests passed (10 assertions in 1 test case)
 
 <end of output>
-Test time =   1.45 sec
+Test time =   1.08 sec
 ----------------------------------------------------------
 Test Passed.
-"RaceSegmentRunner: calculate_static_charging_gain" end time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_static_charging_gain" end time: Oct 09 20:21 EDT
 "RaceSegmentRunner: calculate_static_charging_gain" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -104,12 +104,11 @@ Test Passed.
 20/20 Test: RaceSegmentRunner: calculate_racetime
 Command: "/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner/racerunner_tests" "RaceSegmentRunner: calculate_racetime"
 Directory: /Users/swesikramineni/github/solarcar/solarcar-training-p2/build/src/RaceRunner
-"RaceSegmentRunner: calculate_racetime" start time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_racetime" start time: Oct 09 20:21 EDT
 Output:
 ----------------------------------------------------------
 Filters: "RaceSegmentRunner: calculate_racetime"
-Randomness seeded to: 4150661342
-curr time = 28805.1curr time = 57625.7curr time = 86446.7curr time = 117060curr time = 145871curr day = 5
+Randomness seeded to: 4208872923
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 racerunner_tests is a Catch2 v3.6.0 host application.
@@ -127,7 +126,6 @@ RaceSegmentRunner: calculate_racetime
 with expansion:
   169560.25043419798021205 is within 500.0 of 185763.57209999999031425
 
-curr time = 28816.3curr time = 59447.8curr time = 88274.3curr time = 117080curr time = 147698curr time = 176497curr day = 6
 -------------------------------------------------------------------------------
 RaceSegmentRunner: calculate_racetime
   Random Test 2
@@ -140,7 +138,6 @@ RaceSegmentRunner: calculate_racetime
 with expansion:
   185502.96720809137332253 is within 500.0 of 201703.53898000001208857
 
-curr time = 28811.8curr time = 59419curr time = 90061.2curr time = 120698curr time = 151321curr time = 181933curr time = 212557curr time = 243178curr time = 28806.6curr time = 57620.4curr time = 86441curr time = 115259curr time = 144065curr day = 5
 -------------------------------------------------------------------------------
 RaceSegmentRunner: calculate_racetime
   Random Test 4
@@ -153,7 +150,6 @@ RaceSegmentRunner: calculate_racetime
 with expansion:
   153045.81087231324636377 is within 500.0 of 169246.74935999998706393
 
-curr time = 28808.8curr time = 59409.3curr time = 88228.5curr time = 117141curr time = 147769curr time = 178397curr day = 6
 -------------------------------------------------------------------------------
 RaceSegmentRunner: calculate_racetime
   Random Test 6
@@ -166,7 +162,6 @@ RaceSegmentRunner: calculate_racetime
 with expansion:
   200323.06791104114381596 is within 500.0 of 216519.83390999998664483
 
-curr time = 28802.7curr time = 59404.1curr time = 88228.2curr time = 118862curr time = 147920curr time = 178533curr day = 6
 -------------------------------------------------------------------------------
 RaceSegmentRunner: calculate_racetime
   Random Test 8
@@ -179,29 +174,16 @@ RaceSegmentRunner: calculate_racetime
 with expansion:
   205087.81662939523812383 is within 500.0 of 221291.14691000001039356
 
-curr time = 28813.2curr time = 59413.5curr time = 88236.9curr time = 117070curr time = 147670curr time = 178282curr day = 6
--------------------------------------------------------------------------------
-RaceSegmentRunner: calculate_racetime
-  Random Test 9
--------------------------------------------------------------------------------
-/Users/swesikramineni/github/solarcar/solarcar-training-p2/src/RaceRunner/RaceRunnerTests.cpp:610
-...............................................................................
-
-/Users/swesikramineni/github/solarcar/solarcar-training-p2/src/RaceRunner/RaceRunnerTests.cpp:637: FAILED:
-  REQUIRE_FALSE( result.has_value() )
-with expansion:
-  !true
-
 ===============================================================================
 test cases:  1 | 1 failed
-assertions: 10 | 4 passed | 6 failed
+assertions: 10 | 5 passed | 5 failed
 
 <end of output>
-Test time =   1.55 sec
+Test time =   1.11 sec
 ----------------------------------------------------------
 Test Failed.
-"RaceSegmentRunner: calculate_racetime" end time: Oct 06 17:09 EDT
+"RaceSegmentRunner: calculate_racetime" end time: Oct 09 20:21 EDT
 "RaceSegmentRunner: calculate_racetime" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: Oct 06 17:09 EDT
+End testing: Oct 09 20:21 EDT

@@ -1516,6 +1516,13 @@ _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/clean:
 # Target rules for target src/CMakeFiles/minisim.dir
 
 # All Build rule for target.
+src/CMakeFiles/minisim.dir/all: external/alglib/CMakeFiles/alglib.dir/all
+src/CMakeFiles/minisim.dir/all: external/csv/CMakeFiles/csv.dir/all
+src/CMakeFiles/minisim.dir/all: external/date/CMakeFiles/date.dir/all
+src/CMakeFiles/minisim.dir/all: external/solpos/CMakeFiles/solpos.dir/all
+src/CMakeFiles/minisim.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
+src/CMakeFiles/minisim.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
+src/CMakeFiles/minisim.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
 src/CMakeFiles/minisim.dir/all: src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all
 src/CMakeFiles/minisim.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
 src/CMakeFiles/minisim.dir/all: src/RaceConfig/Route/CMakeFiles/route.dir/all
@@ -1533,13 +1540,6 @@ src/CMakeFiles/minisim.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
 src/CMakeFiles/minisim.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
 src/CMakeFiles/minisim.dir/all: src/Tools/CMakeFiles/parsing.dir/all
 src/CMakeFiles/minisim.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
-src/CMakeFiles/minisim.dir/all: external/alglib/CMakeFiles/alglib.dir/all
-src/CMakeFiles/minisim.dir/all: external/csv/CMakeFiles/csv.dir/all
-src/CMakeFiles/minisim.dir/all: external/date/CMakeFiles/date.dir/all
-src/CMakeFiles/minisim.dir/all: external/solpos/CMakeFiles/solpos.dir/all
-src/CMakeFiles/minisim.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
-src/CMakeFiles/minisim.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
-src/CMakeFiles/minisim.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/minisim.dir/build.make src/CMakeFiles/minisim.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/minisim.dir/build.make src/CMakeFiles/minisim.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=79 "Built target minisim"
@@ -1643,12 +1643,6 @@ src/DataClasses/CMakeFiles/dataclasses.dir/clean:
 # Target rules for target src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir
 
 # All Build rule for target.
-src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/conversions.dir/all
-src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
-src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
-src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
-src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/parsing.dir/all
-src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: external/alglib/CMakeFiles/alglib.dir/all
 src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: external/csv/CMakeFiles/csv.dir/all
 src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: external/date/CMakeFiles/date.dir/all
@@ -1656,6 +1650,12 @@ src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: external/solpos/CMa
 src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
 src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
+src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/conversions.dir/all
+src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
+src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
+src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
+src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/parsing.dir/all
+src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/build.make src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/build.make src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=87 "Built target raceschedule"
@@ -1681,12 +1681,6 @@ src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/clean:
 # Target rules for target src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir
 
 # All Build rule for target.
-src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/conversions.dir/all
-src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
-src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
-src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
-src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/parsing.dir/all
-src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: external/alglib/CMakeFiles/alglib.dir/all
 src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: external/csv/CMakeFiles/csv.dir/all
 src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: external/date/CMakeFiles/date.dir/all
@@ -1694,6 +1688,12 @@ src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: external/sol
 src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
 src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
+src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/conversions.dir/all
+src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
+src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
+src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
+src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/parsing.dir/all
+src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/build.make src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/build.make src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=99,100 "Built target weather_stations"
@@ -1719,13 +1719,6 @@ src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/clean:
 # Target rules for target src/RaceConfig/Route/CMakeFiles/route.dir
 
 # All Build rule for target.
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/conversions.dir/all
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/parsing.dir/all
-src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceConfig/Route/CMakeFiles/route.dir/all: external/alglib/CMakeFiles/alglib.dir/all
 src/RaceConfig/Route/CMakeFiles/route.dir/all: external/csv/CMakeFiles/csv.dir/all
 src/RaceConfig/Route/CMakeFiles/route.dir/all: external/date/CMakeFiles/date.dir/all
@@ -1733,6 +1726,13 @@ src/RaceConfig/Route/CMakeFiles/route.dir/all: external/solpos/CMakeFiles/solpos
 src/RaceConfig/Route/CMakeFiles/route.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
 src/RaceConfig/Route/CMakeFiles/route.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceConfig/Route/CMakeFiles/route.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/conversions.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/parsing.dir/all
+src/RaceConfig/Route/CMakeFiles/route.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/Route/CMakeFiles/route.dir/build.make src/RaceConfig/Route/CMakeFiles/route.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/Route/CMakeFiles/route.dir/build.make src/RaceConfig/Route/CMakeFiles/route.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=90 "Built target route"
@@ -1758,13 +1758,6 @@ src/RaceConfig/Route/CMakeFiles/route.dir/clean:
 # Target rules for target src/RaceConfig/Weather/CMakeFiles/weather.dir
 
 # All Build rule for target.
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/conversions.dir/all
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/parsing.dir/all
-src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceConfig/Weather/CMakeFiles/weather.dir/all: external/alglib/CMakeFiles/alglib.dir/all
 src/RaceConfig/Weather/CMakeFiles/weather.dir/all: external/csv/CMakeFiles/csv.dir/all
 src/RaceConfig/Weather/CMakeFiles/weather.dir/all: external/date/CMakeFiles/date.dir/all
@@ -1772,6 +1765,13 @@ src/RaceConfig/Weather/CMakeFiles/weather.dir/all: external/solpos/CMakeFiles/so
 src/RaceConfig/Weather/CMakeFiles/weather.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
 src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/conversions.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/parsing.dir/all
+src/RaceConfig/Weather/CMakeFiles/weather.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/Weather/CMakeFiles/weather.dir/build.make src/RaceConfig/Weather/CMakeFiles/weather.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/Weather/CMakeFiles/weather.dir/build.make src/RaceConfig/Weather/CMakeFiles/weather.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=98 "Built target weather"
@@ -1797,12 +1797,6 @@ src/RaceConfig/Weather/CMakeFiles/weather.dir/clean:
 # Target rules for target src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir
 
 # All Build rule for target.
-src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/conversions.dir/all
-src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
-src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
-src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
-src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/parsing.dir/all
-src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: external/alglib/CMakeFiles/alglib.dir/all
 src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: external/csv/CMakeFiles/csv.dir/all
 src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: external/date/CMakeFiles/date.dir/all
@@ -1810,6 +1804,12 @@ src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: external/solpos/
 src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
 src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
+src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/conversions.dir/all
+src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/physical_constants.dir/all
+src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/root_tool.dir/all
+src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/file_tools.dir/all
+src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/parsing.dir/all
+src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/build.make src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/build.make src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=91,92 "Built target solar_position"
@@ -1835,13 +1835,13 @@ src/RaceConfig/SolarPosition/CMakeFiles/solar_position.dir/clean:
 # Target rules for target src/SolarCar/CMakeFiles/solarcar.dir
 
 # All Build rule for target.
+src/SolarCar/CMakeFiles/solarcar.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
+src/SolarCar/CMakeFiles/solarcar.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/SolarCar/CMakeFiles/solarcar.dir/all: src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/all
 src/SolarCar/CMakeFiles/solarcar.dir/all: src/SolarCar/Array/CMakeFiles/array.dir/all
 src/SolarCar/CMakeFiles/solarcar.dir/all: src/SolarCar/Battery/CMakeFiles/battery.dir/all
 src/SolarCar/CMakeFiles/solarcar.dir/all: src/SolarCar/Motor/CMakeFiles/motor.dir/all
 src/SolarCar/CMakeFiles/solarcar.dir/all: src/SolarCar/Tire/CMakeFiles/tire.dir/all
-src/SolarCar/CMakeFiles/solarcar.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
-src/SolarCar/CMakeFiles/solarcar.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/CMakeFiles/solarcar.dir/build.make src/SolarCar/CMakeFiles/solarcar.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/CMakeFiles/solarcar.dir/build.make src/SolarCar/CMakeFiles/solarcar.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=93 "Built target solarcar"
@@ -1893,9 +1893,9 @@ src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/clean:
 # Target rules for target src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir
 
 # All Build rule for target.
-src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/all: src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/all
 src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/all: src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/all
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/build.make src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/build.make src/SolarCar/Aerobody/CMakeFiles/aerobody_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=61 "Built target aerobody_tests"
@@ -1947,9 +1947,9 @@ src/SolarCar/Array/CMakeFiles/array.dir/clean:
 # Target rules for target src/SolarCar/Array/CMakeFiles/array_tests.dir
 
 # All Build rule for target.
-src/SolarCar/Array/CMakeFiles/array_tests.dir/all: src/SolarCar/Array/CMakeFiles/array.dir/all
 src/SolarCar/Array/CMakeFiles/array_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 src/SolarCar/Array/CMakeFiles/array_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/SolarCar/Array/CMakeFiles/array_tests.dir/all: src/SolarCar/Array/CMakeFiles/array.dir/all
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Array/CMakeFiles/array_tests.dir/build.make src/SolarCar/Array/CMakeFiles/array_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Array/CMakeFiles/array_tests.dir/build.make src/SolarCar/Array/CMakeFiles/array_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=72 "Built target array_tests"
@@ -2001,9 +2001,9 @@ src/SolarCar/Battery/CMakeFiles/battery.dir/clean:
 # Target rules for target src/SolarCar/Battery/CMakeFiles/battery_tests.dir
 
 # All Build rule for target.
-src/SolarCar/Battery/CMakeFiles/battery_tests.dir/all: src/SolarCar/Battery/CMakeFiles/battery.dir/all
 src/SolarCar/Battery/CMakeFiles/battery_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 src/SolarCar/Battery/CMakeFiles/battery_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/SolarCar/Battery/CMakeFiles/battery_tests.dir/all: src/SolarCar/Battery/CMakeFiles/battery.dir/all
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Battery/CMakeFiles/battery_tests.dir/build.make src/SolarCar/Battery/CMakeFiles/battery_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Battery/CMakeFiles/battery_tests.dir/build.make src/SolarCar/Battery/CMakeFiles/battery_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=74,75 "Built target battery_tests"
@@ -2055,9 +2055,9 @@ src/SolarCar/Motor/CMakeFiles/motor.dir/clean:
 # Target rules for target src/SolarCar/Motor/CMakeFiles/motor_tests.dir
 
 # All Build rule for target.
-src/SolarCar/Motor/CMakeFiles/motor_tests.dir/all: src/SolarCar/Motor/CMakeFiles/motor.dir/all
 src/SolarCar/Motor/CMakeFiles/motor_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 src/SolarCar/Motor/CMakeFiles/motor_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/SolarCar/Motor/CMakeFiles/motor_tests.dir/all: src/SolarCar/Motor/CMakeFiles/motor.dir/all
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Motor/CMakeFiles/motor_tests.dir/build.make src/SolarCar/Motor/CMakeFiles/motor_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Motor/CMakeFiles/motor_tests.dir/build.make src/SolarCar/Motor/CMakeFiles/motor_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=81 "Built target motor_tests"
@@ -2109,9 +2109,9 @@ src/SolarCar/Tire/CMakeFiles/tire.dir/clean:
 # Target rules for target src/SolarCar/Tire/CMakeFiles/tire_tests.dir
 
 # All Build rule for target.
-src/SolarCar/Tire/CMakeFiles/tire_tests.dir/all: src/SolarCar/Tire/CMakeFiles/tire.dir/all
 src/SolarCar/Tire/CMakeFiles/tire_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 src/SolarCar/Tire/CMakeFiles/tire_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/SolarCar/Tire/CMakeFiles/tire_tests.dir/all: src/SolarCar/Tire/CMakeFiles/tire.dir/all
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Tire/CMakeFiles/tire_tests.dir/build.make src/SolarCar/Tire/CMakeFiles/tire_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/SolarCar/Tire/CMakeFiles/tire_tests.dir/build.make src/SolarCar/Tire/CMakeFiles/tire_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=97 "Built target tire_tests"
@@ -2327,14 +2327,14 @@ src/Tools/CMakeFiles/time_tools.dir/clean:
 # Target rules for target src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir
 
 # All Build rule for target.
+src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
+src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/SolarCar/CMakeFiles/solarcar.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/SolarCar/Array/CMakeFiles/array.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/SolarCar/Battery/CMakeFiles/battery.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/SolarCar/Motor/CMakeFiles/motor.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/SolarCar/Tire/CMakeFiles/tire.dir/all
-src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
-src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/build.make src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/build.make src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=83 "Built target race_segment_runner"
@@ -2360,6 +2360,10 @@ src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/clean:
 # Target rules for target src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir
 
 # All Build rule for target.
+src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
+src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
+src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/SolarCar/CMakeFiles/solarcar.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/SolarCar/Aerobody/CMakeFiles/aerobody.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/SolarCar/Array/CMakeFiles/array.dir/all
@@ -2367,10 +2371,6 @@ src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/SolarCar
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/SolarCar/Motor/CMakeFiles/motor.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/SolarCar/Tire/CMakeFiles/tire.dir/all
 src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all
-src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
-src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
-src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
-src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/build.make src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/build.make src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=84 "Built target race_segment_runner_tests"
@@ -2396,6 +2396,13 @@ src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/clean:
 # Target rules for target src/RaceRunner/CMakeFiles/racerunner.dir
 
 # All Build rule for target.
+src/RaceRunner/CMakeFiles/racerunner.dir/all: external/alglib/CMakeFiles/alglib.dir/all
+src/RaceRunner/CMakeFiles/racerunner.dir/all: external/csv/CMakeFiles/csv.dir/all
+src/RaceRunner/CMakeFiles/racerunner.dir/all: external/date/CMakeFiles/date.dir/all
+src/RaceRunner/CMakeFiles/racerunner.dir/all: external/solpos/CMakeFiles/solpos.dir/all
+src/RaceRunner/CMakeFiles/racerunner.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
+src/RaceRunner/CMakeFiles/racerunner.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
+src/RaceRunner/CMakeFiles/racerunner.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
 src/RaceRunner/CMakeFiles/racerunner.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
 src/RaceRunner/CMakeFiles/racerunner.dir/all: src/RaceConfig/Route/CMakeFiles/route.dir/all
 src/RaceRunner/CMakeFiles/racerunner.dir/all: src/RaceConfig/Weather/CMakeFiles/weather.dir/all
@@ -2412,13 +2419,6 @@ src/RaceRunner/CMakeFiles/racerunner.dir/all: src/Tools/CMakeFiles/file_tools.di
 src/RaceRunner/CMakeFiles/racerunner.dir/all: src/Tools/CMakeFiles/parsing.dir/all
 src/RaceRunner/CMakeFiles/racerunner.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceRunner/CMakeFiles/racerunner.dir/all: src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: external/alglib/CMakeFiles/alglib.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: external/csv/CMakeFiles/csv.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: external/date/CMakeFiles/date.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: external/solpos/CMakeFiles/solpos.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
-src/RaceRunner/CMakeFiles/racerunner.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceRunner/CMakeFiles/racerunner.dir/build.make src/RaceRunner/CMakeFiles/racerunner.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceRunner/CMakeFiles/racerunner.dir/build.make src/RaceRunner/CMakeFiles/racerunner.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=85 "Built target racerunner"
@@ -2444,6 +2444,15 @@ src/RaceRunner/CMakeFiles/racerunner.dir/clean:
 # Target rules for target src/RaceRunner/CMakeFiles/racerunner_tests.dir
 
 # All Build rule for target.
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/alglib/CMakeFiles/alglib.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/csv/CMakeFiles/csv.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/date/CMakeFiles/date.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/solpos/CMakeFiles/solpos.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
+src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
 src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/RaceConfig/RaceSchedule/CMakeFiles/raceschedule.dir/all
 src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/RaceConfig/WeatherStations/CMakeFiles/weather_stations.dir/all
 src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/RaceConfig/Route/CMakeFiles/route.dir/all
@@ -2462,15 +2471,6 @@ src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/Tools/CMakeFiles/parsing
 src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/Tools/CMakeFiles/time_tools.dir/all
 src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/all
 src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/RaceRunner/CMakeFiles/racerunner.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/alglib/CMakeFiles/alglib.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/csv/CMakeFiles/csv.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/date/CMakeFiles/date.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/solpos/CMakeFiles/solpos.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: external/toml/CMakeFiles/tomlplusplus.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/ConfigFile/CMakeFiles/config_file.dir/all
-src/RaceRunner/CMakeFiles/racerunner_tests.dir/all: src/DataClasses/CMakeFiles/dataclasses.dir/all
 	$(MAKE) $(MAKESILENT) -f src/RaceRunner/CMakeFiles/racerunner_tests.dir/build.make src/RaceRunner/CMakeFiles/racerunner_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/RaceRunner/CMakeFiles/racerunner_tests.dir/build.make src/RaceRunner/CMakeFiles/racerunner_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/swesikramineni/github/solarcar/solarcar-training-p2/build/CMakeFiles --progress-num=86 "Built target racerunner_tests"
